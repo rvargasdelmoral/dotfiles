@@ -2,7 +2,6 @@
 "           PLUGINS
 "=============================
 
-set nocompatible
 filetype off
 
 set shell=sh
@@ -27,6 +26,7 @@ filetype plugin indent on
 "           GENERIC
 "=============================
 
+set nocompatible
 syntax on				"Colores de sintaxis
 colorscheme default		"Esquema de color por defecto
 set tabstop=4			"Tabulacion a 4 espacios
