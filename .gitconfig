@@ -7,3 +7,5 @@
 	default = current
 [pull]
 	default = current
+[alias]
+	lod = log --oneline --decorate --graph --all --color
