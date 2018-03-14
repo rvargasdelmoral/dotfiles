@@ -9,3 +9,4 @@
 	default = current
 [alias]
 	lod = log --oneline --decorate --graph --all --color
+	merge-log = "!f() { git log --pretty=format:'%h %s' \"$1^..$1\"; }; f"
